@@ -41,7 +41,7 @@ if ( ! class_exists( 'CoCart_Pro_Admin_Notices' ) ) {
 			add_action( 'admin_print_styles', array( $this, 'check_cocart_pro_dependency' ), 0 );
 
 			// Display other admin notices when required. All are dismissible.
-			add_action( 'admin_print_styles', array( $this, 'add_notices' ), 10 );
+		//	add_action( 'admin_print_styles', array( $this, 'add_notices' ), 10 );
 		} // END __construct()
 
 		/**
@@ -119,7 +119,7 @@ if ( ! class_exists( 'CoCart_Pro_Admin_Notices' ) ) {
 		 * @global $current_user
 		 * @return void|bool
 		 */
-		public function add_notices() {
+		/*public function add_notices() {
 			global $current_user;
 
 			// If the current user can not install plugins then return nothing!
@@ -150,7 +150,7 @@ if ( ! class_exists( 'CoCart_Pro_Admin_Notices' ) ) {
 			if ( CoCart_Pro_Admin::is_cocart_pro_beta() && empty( get_transient( 'cocart_pro_beta_notice_hidden' ) ) ) {
 				add_action( 'admin_notices', array( $this, 'beta_notice' ) );
 			}
-		} // END add_notices()
+		} // END add_notices() */
 
 		/**
 		 * CoCart is Not Installed or Activated Notice.
