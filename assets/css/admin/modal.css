@@ -1,0 +1,430 @@
+[class^="cocart-pro-icon-"]:before,
+[class*=" cocart-pro-icon-"]:after,
+[class^="cocart-pro-icon-"]:after,
+[class*=" cocart-pro-icon-"]:before,
+[id^="cocart-pro-nav-"]:before,
+[id*=" cocart-pro-nav-"]:after,
+[id^="cocart-pro-nav-"]:after,
+[id*=" cocart-pro-nav-"]:before {
+    font-family: 'dashicons';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+[class^="cocart-pro-icon-"] span.hidden,
+[class*=" cocart-pro-icon-"] span.hidden {
+    display: inline-block;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+.cocart-pro-icon-arrow-right:before {
+    content: "\f345";
+}
+
+.cocart-pro-icon-arrow-left:before {
+    content: "\f341";
+}
+
+.cocart-pro-icon-arrow-down:before {
+    content: "\f347";
+}
+
+.cocart-pro-icon-arrow-up:before {
+    content: "\f343";
+}
+
+.cocart-pro-icon-rollback:before {
+    content: "\f531";
+}
+
+.cocart-pro-icon-help:before {
+    content: "\f223";
+}
+
+.cocart-pro-icon-important:before {
+    content: "\f534";
+}
+
+.cocart-pro-icon-information:before {
+    content: "\f348";
+}
+
+.cocart-pro-icon-check:before {
+    content: "\f147";
+}
+
+.cocart-pro-icon-check2:before {
+    content: "\f12a";
+}
+
+.cocart-pro-icon-close:before {
+    content: "\f158";
+}
+
+.cocart-pro-modal {
+    display: none;
+    position: fixed;
+    width: 550px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    color: #444;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+    z-index: 100000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: optimizeQuality;
+    text-rendering: optimizeLegibility;
+}
+
+.cocart-pro-modal-overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 99999;
+}
+
+.cocart-pro-modal-header {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    padding: 0 16px 0 32px;
+    border-bottom: 1px solid #eee;
+}
+
+.cocart-pro-modal-header > div {
+    display: -webkit-box;
+    display: flex;
+}
+
+.cocart-pro-modal-footer {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    height: 64px;
+    padding: 0 32px;
+    background: #F5F5F5;
+}
+
+.cocart-pro-modal-close {
+    font-size: 0;
+    color: #aaa;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.cocart-pro-modal-close:hover { 
+    color: #008ec2;
+}
+
+.cocart-pro-modal-close:before {
+    font-size: 1.25rem;
+    line-height: 1;
+}
+
+.cocart-pro-modal-return {
+    display: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 0;
+    color: #777;
+    position: relative;
+    width: 28px;
+    left: -12px;
+}
+
+.cocart-pro-modal-return.cocart-pro-isOpen {
+    display: inline-block;
+}
+
+.cocart-pro-modal-return:before {
+    font-size: 14px;
+    display: inline-block;
+}
+
+.cocart-pro-modal-return:hover,
+.cocart-pro-modal-return:focus {
+    outline: none;
+    color: #008ec2;
+}
+
+.cocart-pro-modal-cancel {
+    color: #0073aa;
+    text-decoration: underline;
+    margin-left: 8px;
+    line-height: 28px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.cocart-pro-modal-cancel:hover {
+    color: #008ec2;
+}
+
+.cocart-pro-modal-question {
+    display: none;
+}
+
+.cocart-pro-modal-question.cocart-pro-isOpen {
+    display: block;
+}
+
+.cocart-pro-modal-content {
+    padding: 8px 32px;
+}
+
+.cocart-pro-modal-fieldHidden {
+    display: none;
+    padding-left: 26px;
+    margin-top: 8px;
+}
+
+.cocart-pro-modal-fieldHidden.cocart-pro-isOpen {
+    display: block;
+}
+
+.cocart-pro-modal-fieldHidden input[type=text],
+.cocart-pro-modal-fieldHidden textarea {
+    border: 2px solid #A9ADB0;
+    font-size: 12px;
+    border-radius: 3px;
+    transition: border 150ms ease-out;
+    -webkit-transition: border 150ms ease-out
+}
+
+.cocart-pro-modal-fieldHidden input[type=text]:focus,
+.cocart-pro-modal-fieldHidden textarea:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #777;
+}
+
+.cocart-pro-modal-fieldHidden input[type=text]::-webkit-input-placeholder,
+.cocart-pro-modal-fieldHidden textarea::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+.cocart-pro-modal-fieldHidden input[type=text] :-ms-input-placeholder,
+.cocart-pro-modal-fieldHidden textarea :-ms-input-placeholder {
+    color: #ccc;
+}
+
+.cocart-pro-modal-fieldHidden input[type=text]::-ms-input-placeholder,
+.cocart-pro-modal-fieldHidden textarea::-ms-input-placeholder {
+    color: #ccc;
+}
+
+.cocart-pro-modal-fieldHidden input[type=text]::-webkit-input-placeholder,
+.cocart-pro-modal-fieldHidden textarea::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+.cocart-pro-modal-fieldHidden input[type=text]:-ms-input-placeholder,
+.cocart-pro-modal-fieldHidden textarea:-ms-input-placeholder {
+    color: #ccc;
+}
+
+.cocart-pro-modal-fieldHidden input[type=text]::-webkit-input-placeholder, .cocart-pro-modal-fieldHidden textarea::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+.cocart-pro-modal-fieldHidden input[type=text]:-ms-input-placeholder, .cocart-pro-modal-fieldHidden textarea:-ms-input-placeholder {
+    color: #ccc;
+}
+
+.cocart-pro-modal-fieldHidden input[type=text]::-ms-input-placeholder, .cocart-pro-modal-fieldHidden textarea::-ms-input-placeholder {
+    color: #ccc;
+}
+
+.cocart-pro-modal-fieldHidden input[type=text]::placeholder,
+.cocart-pro-modal-fieldHidden textarea::placeholder {
+    color: #ccc;
+}
+
+.cocart-pro-modal-fieldHidden input[type=text] {
+    width: 300px;
+    height: 30px;
+}
+
+.cocart-pro-modal-fieldHidden textarea {
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+}
+
+.cocart-pro-modal-hidden {
+    display: none;
+}
+
+.cocart-pro-modal-hidden.cocart-pro-isOpen {
+    display: block;
+}
+
+.cocart-pro-modal-hidden button {
+    cursor: pointer;
+    border: none;
+    margin-bottom: 24px;
+}
+
+.cocart-pro-modal-hidden .text-center {
+    text-align: center;
+}
+
+.cocart-pro-modal-hidden h3 {
+    display: none !important;
+}
+
+.cocart-pro-modal-hidden a:not(.cocart-pro-button) {
+    color: #1B9AAA !important;
+}
+
+.cocart-pro-modal-hidden a:not(.cocart-pro-button):hover {
+    color: #0073aa !important;
+}
+
+.cocart-pro-modal .button {
+    font-weight: 500;
+    box-shadow: none;
+    height: 30px;
+    border-bottom-width: 3px;
+}
+
+.cocart-pro-modal .button-primary.cocart-pro-isDisabled {
+    opacity: 0.2;
+    color: #fff !important;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.cocart-pro-modal ul li {
+    padding: 4px 0;
+}
+
+.cocart-pro-modal h2,
+.cocart-pro-modal h3 {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1.1875;
+}
+
+.cocart-pro-modal h2 {
+    max-width: 430px;
+    font-weight: 600;
+    color: #23282D;
+    margin: 12px 0;
+}
+
+.cocart-pro-modal h3 {
+    font-weight: bold;
+    color: #3D474E;
+    margin: 8px 0;
+}
+
+.cocart-pro-modal input[type=radio] {
+    margin-top: 1px;
+    margin-right: 8px;
+}
+
+.cocart-pro-button {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    padding: 8px 24px;
+    text-align: center;
+    background: #a37aff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -0.08px;
+    font-weight: bold;
+    border-radius: 4px;
+    color: #fff !important;
+    white-space: nowrap;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: all 200ms ease-out;
+    -webkit-transition: all 200ms ease-out;
+    font-size: .8125rem;
+    line-height: 1.53846;
+}
+
+.cocart-pro-button:hover,
+.cocart-pro-button:focus {
+    color: #fff !important;
+}
+
+.cocart-pro-button.small {
+    padding: 5px 0;
+    letter-spacing: -0.08px;
+    font-size: .6875rem;
+    line-height: 1.81818;
+}
+
+.cocart-pro-button.icon {
+    min-width: 160px;
+    padding-left: 8px;
+    padding-right: 40px;
+    text-align: left;
+}
+
+.cocart-pro-button.icon:before {
+    position: absolute;
+    right: 8px;
+    font-size: .9375rem;
+    line-height: 1.33333;
+}
+
+.cocart-pro-button.fixed {
+    position: fixed;
+    display: -webkit-box;
+    display: flex;
+    padding: 8px 16px;
+    right: 24px;
+    bottom: 32px;
+    border-radius: 16px;
+}
+
+.cocart-pro-button.fixed:before {
+    font-size: 1.125rem;
+    line-height: 1;
+    margin-right: 8px;
+}
+
+.cocart-pro-button:focus {
+    outline: none;
+    color: #fff !important;
+}
+
+html[dir=rtl] .cocart-pro-modal-header {
+    padding: 0 32px 0 16px;
+}
+
+html[dir=rtl] .cocart-pro-modal-return {
+    left: 12px;
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+}

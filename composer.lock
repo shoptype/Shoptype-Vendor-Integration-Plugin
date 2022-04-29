@@ -1,0 +1,210 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9321632eb2d2f0b402c1b61fce734198",
+    "packages": [
+        {
+            "name": "co-cart/co-cart",
+            "version": "v2.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/co-cart/co-cart.git",
+                "reference": "c707609392e07e8d25bab3dfac9e4c3d8613bf44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/co-cart/co-cart/zipball/c707609392e07e8d25bab3dfac9e4c3d8613bf44",
+                "reference": "c707609392e07e8d25bab3dfac9e4c3d8613bf44",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "1.7.0"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Sébastien Dumont",
+                    "email": "mailme@sebastiendumont.com",
+                    "homepage": "https://sebastiendumont.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CoCart is a REST API for WooCommerce. It focuses on the front-end of the store to manage the shopping cart allowing developers to build a headless store.",
+            "homepage": "https://cocart.xyz",
+            "keywords": [
+                "api",
+                "cart",
+                "e-commerce",
+                "feature-plugin",
+                "json",
+                "plugin",
+                "rest",
+                "rest-api",
+                "woocommerce",
+                "woocommerce-api",
+                "woocommerce-extension",
+                "woocommerce-plugin",
+                "wordpress",
+                "wordpress-development"
+            ],
+            "funding": [
+                {
+                    "url": "https://www.buymeacoffee.com/sebastien",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.paypal.me/codebreaker",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://opencollective.com/cocart",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-09-16T17:49:22+00:00"
+        },
+        {
+            "name": "composer/installers",
+            "version": "v1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "141b272484481432cda342727a427dc1e206bfa0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/141b272484481432cda342727a427dc1e206bfa0",
+                "reference": "141b272484481432cda342727a427dc1e206bfa0",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "^4.8.36"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Thelia",
+                "Whmcs",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "joomla",
+                "known",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "time": "2019-08-12T15:00:31+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0"
+    },
+    "platform-dev": [],
+    "platform-overrides": {
+        "php": "7.2"
+    },
+    "plugin-api-version": "1.1.0"
+}

@@ -1,0 +1,674 @@
+# Copyright (c) 2020 Sébastien Dumont
+# This file is distributed under the same license as the CoCart Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: CoCart Pro 1.0.0-rc.4\n"
+"Report-Msgid-Bugs-To: https://cocart.xyz/feedback/\n"
+"POT-Creation-Date: 2020-09-24 04:00:33+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Sébastien Dumont <mailme@sebastiendumont.com>\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: cocart-pro.php:79
+msgid "Cloning this object is forbidden."
+msgstr ""
+
+#: cocart-pro.php:89
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-action-links.php:42
+#: includes/admin/class-cocart-pro-admin.php:37
+msgid "Licence Manager for %s"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-action-links.php:42
+msgid "Licence Manager"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-action-links.php:62
+msgid "Developed By %s"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-action-links.php:62
+msgid "View the developers site"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-action-links.php:65
+msgid "View %s documentation"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-action-links.php:65
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-action-links.php:66
+msgid "Translate %s"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-action-links.php:66
+msgid "Translate"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-action-links.php:67
+msgid "Review %s on CoCart.xyz"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-action-links.php:67
+#: includes/admin/views/html-notice-please-review.php:32
+msgid "Leave a Review"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-updater.php:171
+msgid "Automatic updates disabled!"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-updater.php:178
+msgid "Automatic updates enabled!"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-updater.php:192
+#. translators: Time until the next update.
+msgid "Update scheduled in %s"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-updater.php:393
+msgid "Unable to return the changelog at this time."
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-updater.php:403
+msgid "The documentation for CoCart Pro is %1$shere%2$s."
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-updater.php:568
+msgid "%1$s%3$sThis is the latest stable release%3$s%2$s"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-updater.php:572
+msgid "%1$s%3$sThis is a beta release%3$s%2$s"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-updater.php:576
+msgid "%1$s%3$sThis is a pre-release%3$s%2$s"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-updater.php:585
+msgid ""
+"%1$sThe version of WooCommerce you have installed has not yet been tested "
+"with this release.%1$s"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-updater.php:662
+msgid "Unable to update!"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-updater.php:785
+#. translators: 1: plugin name, 2: details URL, 3: additional link attributes,
+#. 4: version number
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" %3$s>View "
+"version %4$s details</a>."
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-updater.php:791
+#: includes/admin/class-cocart-pro-admin-updater.php:804
+#: includes/admin/class-cocart-pro-admin-updater.php:818
+#: includes/admin/class-cocart-pro-admin-updater.php:837
+#. translators: 1: plugin name, 2: version number
+msgid "View %1$s version %2$s details"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-updater.php:798
+#. translators: 1: plugin name, 2: details URL, 3: additional link attributes,
+#. 4: version number
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" %3$s>View "
+"version %4$s details</a>. <em>Automatic update is unavailable for this "
+"plugin.</em>"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-updater.php:812
+#. translators: 1: plugin name, 2: details URL, 3: additional link attributes,
+#. 4: version number, 5: update URL, 6: additional link attributes
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" %3$s>View "
+"version %4$s details</a> or <a href=\"%5$s\" %6$s>update now</a>."
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-updater.php:825
+#. translators: %s: plugin name
+msgid "Update %s now"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin-updater.php:831
+#. translators: 1: plugin name, 2: details URL, 3: additional link attributes,
+#. 4: version number 5: Update PHP page URL
+msgid ""
+"There is a new version of %1$s available, but it doesn&#8217;t work with "
+"your version of PHP. <a href=\"%2$s\" %3$s>View version %4$s details</a> or "
+"<a href=\"%5$s\">learn more about updating PHP</a>."
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin.php:132
+#. translators: Number of years
+msgid "%s years"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin.php:134
+msgid "a year"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin.php:140
+msgid "%s months ago"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin.php:142
+msgid "1 month ago"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin.php:149
+#. translators: Number of weeks
+msgid "%s weeks"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin.php:151
+msgid "a week"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin.php:158
+#. translators: Number of days
+msgid "%s days"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin.php:160
+msgid "a day"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin.php:167
+#. translators: Number of hours
+msgid "%s hours"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin.php:169
+msgid "an hour"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin.php:176
+#. translators: Number of minutes
+msgid "%s minutes"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin.php:178
+msgid "a minute"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin.php:185
+#. translators: Number of seconds
+msgid "%s seconds"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin.php:187
+msgid "a second"
+msgstr ""
+
+#: includes/admin/class-cocart-pro-admin.php:269
+#. translators: %s: Number of add-ons.
+msgid "CoCart Add-ons Installed <span class=\"count\">(%s)</span>"
+msgid_plural "CoCart Add-ons Installed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/views/html-licence-manager.php:23
+#: includes/admin/views/html-notice-cocart-not-installed.php:19
+#: includes/admin/views/html-notice-please-review.php:23
+#: includes/admin/views/html-notice-required-cocart.php:19
+#: includes/admin/views/html-notice-trying-beta.php:19
+msgid "CoCart, a WooCommerce REST-API extension"
+msgstr ""
+
+#: includes/admin/views/html-licence-manager.php:27
+msgid "Licence Manager for %s."
+msgstr ""
+
+#: includes/admin/views/html-licence-manager.php:29
+msgid "This section is currently in development."
+msgstr ""
+
+#: includes/admin/views/html-licence-manager.php:31
+msgid "Enter your licence key or email address above and press \"Check Licence\"."
+msgstr ""
+
+#: includes/admin/views/html-licence-manager.php:34
+msgid "Check Licence"
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:27
+msgid "Temporary Deactivation"
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:28
+msgid "%1$sIt is a temporary deactivation.%2$s I am just debugging an issue."
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:33
+msgid "Too Complicated"
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:34
+msgid "The plugin is %1$stoo complicated to configure.%2$s"
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:37
+msgid "The plugin is too complicated to configure."
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:38
+msgid "We are sorry to hear you are finding it difficult to use CoCart Pro."
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:39
+msgid ""
+"CoCart Pro is the only plugin that enables you to handle the cart via the "
+"REST API."
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:40
+msgid ""
+"We do our best to make CoCart Pro provide all the support you require for "
+"handling items in the cart. If there is something we can do to help make it "
+"less complicated, %1$splease write to us%2$s and let us know."
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:45
+msgid "Unable to work with Varnish"
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:46
+msgid "I'm struggerling to get CoCart working with %1$sVarnish%2$s."
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:49
+msgid "I'm struggerling to get CoCart working with Varnish."
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:50
+msgid ""
+"If you are using Varnish you may need to apply a condition to allow CoCart "
+"to pass without caching."
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:51
+msgid ""
+"Press on %1$sApply Condition%2$s to read a guide to configure Varnish with "
+"WooCommerce."
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:52
+msgid "Apply Condition"
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:57
+msgid "Another Plugin"
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:58
+msgid "I'm using another plugin I find better."
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:60
+msgid "What is the name of this plugin?"
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:69
+msgid "Return"
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:70
+msgid "CoCart Pro Feedback"
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:72
+msgid "Close"
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:77
+msgid "May we have a little info about why you are deactivating?"
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:96
+msgid "Other"
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:98
+msgid ""
+"Let us know why you are deactivating CoCart Pro so we can improve the "
+"plugin."
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:121
+msgid "Send & Deactivate"
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:122
+msgid "Cancel"
+msgstr ""
+
+#: includes/admin/views/html-modal-deactivation.php:124
+msgid "Skip & Deactivate"
+msgstr ""
+
+#: includes/admin/views/html-notice-cocart-not-installed.php:23
+msgid "%1$s requires %2$s to be installed and activated."
+msgstr ""
+
+#: includes/admin/views/html-notice-cocart-not-installed.php:31
+msgid "Activate CoCart"
+msgstr ""
+
+#: includes/admin/views/html-notice-cocart-not-installed.php:35
+msgid ""
+"As you do not have permission to activate a plugin. Please ask a site "
+"administrator to activate CoCart for you."
+msgstr ""
+
+#: includes/admin/views/html-notice-cocart-not-installed.php:47
+msgid "Install CoCart"
+msgstr ""
+
+#: includes/admin/views/html-notice-cocart-not-installed.php:56
+msgid "Turn off the CoCart Pro plugin"
+msgstr ""
+
+#: includes/admin/views/html-notice-please-review.php:27
+msgid "Hi %1$s, are you enjoying %2$s?"
+msgstr ""
+
+#: includes/admin/views/html-notice-please-review.php:28
+msgid ""
+"You have been using %1$s for %2$s now! Mind leaving a review and let me "
+"know know what you think of the plugin? I'd really appreciate it!"
+msgstr ""
+
+#: includes/admin/views/html-notice-please-review.php:33
+msgid "No thank you / I already have"
+msgstr ""
+
+#: includes/admin/views/html-notice-required-cocart.php:23
+msgid "Update Required!"
+msgstr ""
+
+#: includes/admin/views/html-notice-required-cocart.php:24
+msgid "%1$s requires at least %2$s v%3$s or higher."
+msgstr ""
+
+#: includes/admin/views/html-notice-required-cocart.php:31
+msgid "Update CoCart"
+msgstr ""
+
+#: includes/admin/views/html-notice-trying-beta.php:23
+msgid "Thanks for trying out this beta/pre-release of CoCart Pro!"
+msgstr ""
+
+#: includes/admin/views/html-notice-trying-beta.php:24
+msgid ""
+"If you have any questions or any feedback at all, please let me know. Any "
+"little bit you're willing to share helps."
+msgstr ""
+
+#: includes/admin/views/html-notice-trying-beta.php:28
+msgid "Give Feedback for %2$s"
+msgstr ""
+
+#: includes/admin/views/html-notice-trying-beta.php:28
+msgid "Give Feedback"
+msgstr ""
+
+#: includes/admin/views/html-notice-trying-beta.php:29
+msgid "Hide this notice and ask me again for feedback in 2 weeks"
+msgstr ""
+
+#: includes/admin/views/html-notice-trying-beta.php:29
+msgid "Ask me again in 2 weeks"
+msgstr ""
+
+#: includes/api/class-cocart-pro-calculate-controller.php:74
+msgid "Returns the cart totals once calculated."
+msgstr ""
+
+#: includes/api/class-cocart-pro-calculate-controller.php:88
+msgid "Sets the cart fees in session once calculated."
+msgstr ""
+
+#: includes/api/class-cocart-pro-calculate-controller.php:93
+msgid "Returns the cart fees once calculated."
+msgstr ""
+
+#: includes/api/class-cocart-pro-calculate-controller.php:107
+msgid "Country is a required minimum to calculate shipping."
+msgstr ""
+
+#: includes/api/class-cocart-pro-calculate-controller.php:114
+msgid "State is optional but maybe required under some circumstances."
+msgstr ""
+
+#: includes/api/class-cocart-pro-calculate-controller.php:121
+msgid "Enter City to specify location in country."
+msgstr ""
+
+#: includes/api/class-cocart-pro-calculate-controller.php:128
+msgid ""
+"Enter postcode / ZIP to narrow down location for more accurate shipping "
+"cost."
+msgstr ""
+
+#: includes/api/class-cocart-pro-calculate-controller.php:136
+msgid ""
+"If set to true it will return shipping methods available once shipping is "
+"calculated."
+msgstr ""
+
+#: includes/api/class-cocart-pro-calculate-controller.php:179
+msgid "Cart totals have been calculated."
+msgstr ""
+
+#: includes/api/class-cocart-pro-calculate-controller.php:281
+msgid "Cart fees have been calculated."
+msgstr ""
+
+#: includes/api/class-cocart-pro-calculate-controller.php:530
+msgid "Please enter a valid postcode / ZIP."
+msgstr ""
+
+#: includes/api/class-cocart-pro-calculate-controller.php:551
+msgid "Shipping costs updated."
+msgstr ""
+
+#: includes/api/class-cocart-pro-coupon-controller.php:45
+msgid "Coupon to apply to the cart."
+msgstr ""
+
+#: includes/api/class-cocart-pro-coupon-controller.php:60
+msgid "Coupon to remove from the cart."
+msgstr ""
+
+#: includes/api/class-cocart-pro-coupon-controller.php:100
+#: includes/api/class-cocart-pro-coupon-controller.php:129
+#: includes/api/class-cocart-pro-coupon-controller.php:173
+#: includes/api/class-cocart-pro-coupon-controller.php:204
+msgid "Coupons are not enabled for this store!"
+msgstr ""
+
+#: includes/api/class-cocart-pro-coupon-controller.php:140
+msgid "Coupon already applied to cart."
+msgstr ""
+
+#: includes/api/class-cocart-pro-coupon-controller.php:151
+msgid "Coupon was successfully added to cart."
+msgstr ""
+
+#: includes/api/class-cocart-pro-coupon-controller.php:156
+msgid "Coupon failed to apply to cart."
+msgstr ""
+
+#: includes/api/class-cocart-pro-coupon-controller.php:159
+#: includes/api/class-cocart-pro-coupon-controller.php:191
+msgid "Coupon is required in order to apply!"
+msgstr ""
+
+#: includes/api/class-cocart-pro-coupon-controller.php:183
+msgid "Coupon was successfully removed from cart."
+msgstr ""
+
+#: includes/api/class-cocart-pro-coupon-controller.php:188
+msgid "Coupon failed to remove from cart."
+msgstr ""
+
+#: includes/api/class-cocart-pro-coupon-controller.php:228
+msgid "Coupons applied are still valid!"
+msgstr ""
+
+#: includes/api/class-cocart-pro-coupon-controller.php:232
+msgid "The following coupons have expired or no longer valid: %s"
+msgstr ""
+
+#: includes/api/class-cocart-pro-cross-sells-controller.php:46
+msgid "Returns the URL of the product image thumbnail."
+msgstr ""
+
+#: includes/api/class-cocart-pro-fees-controller.php:52
+msgid "Name of the fee."
+msgstr ""
+
+#: includes/api/class-cocart-pro-fees-controller.php:60
+msgid "Amount for the fee."
+msgstr ""
+
+#: includes/api/class-cocart-pro-fees-controller.php:67
+msgid "Determins if the fee is taxable."
+msgstr ""
+
+#: includes/api/class-cocart-pro-fees-controller.php:72
+msgid "The tax class the fee applies to."
+msgstr ""
+
+#: includes/api/class-cocart-pro-fees-controller.php:114
+msgid "The name of the fee is missing!"
+msgstr ""
+
+#: includes/api/class-cocart-pro-fees-controller.php:118
+msgid "The amount for the fee is missing!"
+msgstr ""
+
+#: includes/api/class-cocart-pro-fees-controller.php:125
+msgid "There is nothing in the cart so no fee can be added."
+msgstr ""
+
+#: includes/api/class-cocart-pro-fees-controller.php:140
+msgid "Fee has already been added."
+msgstr ""
+
+#: includes/api/class-cocart-pro-fees-controller.php:143
+msgid "Fee \"%1$s\" for %2$s has been added."
+msgstr ""
+
+#: includes/api/class-cocart-pro-fees-controller.php:160
+msgid "All cart fees have been removed."
+msgstr ""
+
+#: includes/api/class-cocart-pro-fees-controller.php:163
+msgid "Cart fees failed to remove."
+msgstr ""
+
+#: includes/api/class-cocart-pro-payment-methods-controller.php:76
+msgid "The cart does not require payment!"
+msgstr ""
+
+#: includes/api/class-cocart-pro-payment-methods-controller.php:86
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: includes/api/class-cocart-pro-payment-methods-controller.php:86
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: includes/api/class-cocart-pro-payment-methods-controller.php:130
+msgid "The gateway ID is required to set a payment method."
+msgstr ""
+
+#: includes/api/class-cocart-pro-payment-methods-controller.php:146
+msgid "The gateway ID is either incorrect or does not exist."
+msgstr ""
+
+#: includes/api/class-cocart-pro-shipping-methods-controller.php:46
+msgid ""
+"Recurring cart key is required only to get shipping methods for that "
+"subscription."
+msgstr ""
+
+#: includes/api/class-cocart-pro-shipping-methods-controller.php:85
+msgid "Shipping has not been enabled for this store!"
+msgstr ""
+
+#: includes/api/class-cocart-pro-shipping-methods-controller.php:95
+msgid "Cart does not contain an item that requires shipping."
+msgstr ""
+
+#: includes/api/class-cocart-pro-shipping-methods-controller.php:103
+msgid "Customer has not calculated shipping."
+msgstr ""
+
+#: includes/api/class-cocart-pro-shipping-methods-controller.php:116
+msgid "The recurring cart key does not exists."
+msgstr ""
+
+#: includes/api/class-cocart-pro-shipping-methods-controller.php:127
+msgid "There are no shipping methods available!"
+msgstr ""
+
+#: includes/api/class-cocart-pro-shipping-methods-controller.php:168
+msgid "The shipping key is required to set a shipping method."
+msgstr ""
+
+#: includes/api/class-cocart-pro-shipping-methods-controller.php:182
+msgid "The shipping method is either incorrect or does not exist."
+msgstr ""
+
+#: includes/class-cocart-pro-cart-support.php:126
+msgid "Fee"
+msgstr ""
+
+#: includes/class-cocart-pro-install.php:141
+msgid "Get started with %3$s here:"
+msgstr ""
+
+#: includes/class-cocart-pro-install.php:147
+msgid "Don`t forget to register your licence for %3$s to enable updates. "
+msgstr ""
+
+#: includes/extensions/class-cocart-pro-accommodation-bookings.php:50
+#: includes/extensions/class-cocart-pro-accommodation-bookings.php:54
+msgid " at "
+msgstr ""
+
+#: includes/extensions/class-cocart-pro-subscriptions.php:127
+#. translators: placeholder is a date
+msgid "First renewal: %s"
+msgstr ""
