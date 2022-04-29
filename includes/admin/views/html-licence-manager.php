@@ -26,7 +26,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 			<h1><?php printf( 'Generating Woocommerce API Keys' ); ?></h1>
 
-			<li><strong><?php _e( 'Go to: WooCommerce > Settings > Advanced > REST API.' ); ?></strong></li>
+			<li><strong><a href="admin.php?page=wc-settings&tab=advanced&section=keys" target="_blank">Go to: WooCommerce > Settings > Advanced > REST API.</a></strong></li>,
 			<li><strong><?php _e( 'Select Add Key. You are taken to the Key Details screen' ); ?></strong></li>
 			<li><strong><?php _e( 'Add a Description. - "Shoptype"' ); ?></strong></li>
 			<li><strong><?php _e( 'Select the User you would like to generate a key for in the dropdown. - Any admin user' ); ?></strong></li>
