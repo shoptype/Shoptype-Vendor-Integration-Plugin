@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name: Shoptype Vendor Integration
+ * Plugin Name: CoCart Pro
  * Plugin URI:  https://shoptype.com
  * Description: Shoptype's CoCart Pro Integration completes the fulfillment and shipping integration.
  * Author:      Shoptype
